@@ -367,7 +367,7 @@ button a:nth-of-type(2):hover{
     gap: 2px;
   }
   .home-img img{
-    width: 52vw;
+    width: 62%;
     position: absolute;
     top: 20%;
     right: 20%;
@@ -378,12 +378,17 @@ button a:nth-of-type(2):hover{
     margin-top: 1rem;
     line-height: 1.2;
   }
+  .home-content p{
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+  }
   
   .home-content{
     /* background-color: #660099; */
     height: 100vh;
     position: absolute;
-    top: 70%;
+    top: 55%;
   }
   nav{
     display: none;
@@ -394,7 +399,7 @@ button a:nth-of-type(2):hover{
   }
   .about-content {
     position: absolute;
-    left: 60%;
+    left: 48%;
     
     
   }
@@ -406,10 +411,26 @@ button a:nth-of-type(2):hover{
   position: absolute;
   width: 40%;
   margin-top: -10%;
-  right: 50%;
+  right: 55%;
+  }
+  .container {
+   margin-right: 15%;
+}
+.box{
+  width: 40%;
+  font-size: 15px;
+  height: 65vh;
+  
+}
+.box h3{
+  font-size: 17px;
+}
+.box p{
+  font-size: 15px;
+}
+  .services{
+    width: 100%;
+   
   }
   
   }
-
-
-
