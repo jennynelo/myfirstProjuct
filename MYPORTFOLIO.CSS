@@ -371,9 +371,11 @@ button a:nth-of-type(2):hover{
 @media screen and (max-width: 767px){
   nav{
     display: flex;
-    height: 10vh;
+    height: 9vh;
     width: auto;
     padding: 1rem;
+    font size
+    
   }
   .nav-links{
     margin-right: 20px;
